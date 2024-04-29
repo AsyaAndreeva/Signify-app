@@ -24,12 +24,6 @@ android {
             buildPython "C:/Users/Ася Андреева/AppData/Local/Programs/Python/Python311/python.exe"
         }
 
-        python {
-            pip {
-                // A requirement specifier, with or without a version number:
-                install "numpy"
-            }
-        }
 
         sourceSets {
             main {
